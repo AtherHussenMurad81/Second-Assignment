@@ -84,6 +84,32 @@ body {
   font-size: 16px;
   padding: 15px 50px;
 }
+/* flower andplants lover section */
+.challenge {
+  display: flex;
+  margin-top: 80px;
+  margin-left: 150px;
+  gap: 120px;
+  align-items: center;
+}
+.img-1 {
+  position: relative;
+}
+.img-2 {
+  height: 250px;
+  width: 250px;
+  margin-left: 440px;
+  position: absolute;
+  margin-top: -700px;
+  margin-left: 420px;
+}
+.plants-heading h1 {
+  font-weight: 700;
+  font: 700;
+}
+.plants-heading ul li {
+  color: #8987a1;
+}
 /* mubile device */
 @media screen and (max-width: 576px) {
   .banner-items {
@@ -107,5 +133,9 @@ body {
   .plant-items {
     text-align: center;
     border: 2px solid red;
+  }
+  .challenge {
+    flex-direction: column;
+    margin: 0 auto;
   }
 }
